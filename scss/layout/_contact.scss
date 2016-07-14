@@ -1,0 +1,24 @@
+#contact {
+  margin: 0;
+  padding: 5% 10%;
+  list-style: none;
+  text-align: center;
+  width: 80%;
+  ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 10%;
+  }
+  li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-weight: 200;
+  }
+
+  @media screen and (min-width: $tablet-width) {
+    float: left;
+  }
+}

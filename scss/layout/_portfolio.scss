@@ -1,0 +1,44 @@
+#portfolio {
+  background-color: #fff;
+  margin: 0px;
+  padding: 10px 0;
+  text-align: center;
+  div {
+    list-style: none;
+    padding: 0;
+  }
+  p {
+    padding: 0 10% 5% 10%;
+    font-weight: 200;
+  }
+
+  @media screen and (min-width: $tablet-width) {
+    div {
+      float: left;
+      width: 45%;
+      margin: 1%;
+      padding-left: 2%;
+    }
+      float: left;
+      padding-bottom: 50px;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    div {
+      width: 30%;
+      margin: 1.5%;
+      padding-left: 0;
+    }
+  }
+}
+
+.project-img {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  @media screen and (min-width: $tablet-width) {
+      width: 100%;
+      padding: 0;
+  }
+}

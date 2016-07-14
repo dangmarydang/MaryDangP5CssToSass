@@ -1,0 +1,20 @@
+
+@mixin tablet {
+  @media screen and (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin font-setting  ($fs-size:null, $fs-weight:null, $fs-decoration:null, $fs-transform:null, $fs-color:null) {
+  font-size: $fs-size;
+  font-weight: $fs-weight;
+  text-decoration: $fs-decoration;
+  text-transform: $fs-transform;
+  color: $fs-color;
+}
